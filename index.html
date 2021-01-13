@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
+    integrity="sha256-ECB9bbROLGm8wOoEbHcHRxlHgzGqYpDtNTgDTyDz0wg=" crossorigin="anonymous" />
+    <title>Expression Validation</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Expression Validator</h1>
+
+        <label for="expression">Choose an expression type :</label>
+        <h4>Email  (expects abc123@something.something)</h4>
+        <form id="email1">
+            <input id="email" type="text" placeholder="Type your Email">
+            <input type="submit" value="check">
+        </form>
+        <h4>Phone Number (expects 11 digit number starting with 01)</h4>
+        <form id="number1">
+            <input id="number" type="text" placeholder="Type your phone number">
+            <input type="submit" value="check">
+        </form>
+        <h4>Post Code  (expects 4 digit number starting with 12)</h4>
+        <form id="postcode1">
+            <input id="postcode" type="text" placeholder="Type your postcode">
+            <input type="submit" value="check">
+        </form>
+           
+        
+           
+          
+       
+
+    </div>
+
+    <script src="check.js">
+
+    </script>
+    
+</body>
+</html>
